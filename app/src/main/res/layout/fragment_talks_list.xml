@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.letstalk.rathero.vspc_redtide.test1.TalksList"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/layout_search">
+
+            <EditText
+                android:id="@+id/input_search_talk"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:hint="Search"></EditText>
+
+            <Button
+                android:id="@+id/button_search__talk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"></Button>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textview_notalks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No hay talks para la busqueda correspondiente. Por que no te animas y creas una?"/>
+    <ListView
+        android:id="@+id/listview_talks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_createTalk"
+        android:divider="@null"
+        android:dividerHeight="0dp"></ListView>
+
+    </LinearLayout>
+
+</FrameLayout>

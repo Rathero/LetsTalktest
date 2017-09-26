@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_talks"
+            android:icon="@drawable/ic_menu_fire"
+            android:title="Trending Talks" />
+        <item
+            android:id="@+id/nav_mytalks"
+            android:icon="@drawable/ic_meny_mytalks"
+            android:title="My talks" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_languages"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Languages" />
+        <item
+            android:id="@+id/nav_create_talk"
+            android:icon="@drawable/ic_menu_createtalk"
+            android:title="Create Talk" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Soon">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="NOTHING" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.letstalk.rathero.vspc_redtide.test1.TalkView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+            <ListView
+                android:id="@+id/listview_messages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:background="@drawable/background2"
+                ></ListView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/input_message"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:hint="Type your message"></EditText>
+
+            <Button
+                android:id="@+id/button_send_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"></Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

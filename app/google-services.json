@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "958768264282",
+    "firebase_url": "https://lets-talk-2.firebaseio.com",
+    "project_id": "lets-talk-2",
+    "storage_bucket": "lets-talk-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958768264282:android:e8373581a38728f0",
+        "android_client_info": {
+          "package_name": "com.letstalk.rathero.vspc_redtide.test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958768264282-jlnppfap78tedfhmc3hmvpnjmaf8qomm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.letstalk.rathero.vspc_redtide.test1",
+            "certificate_hash": "ed360557368a9d2a3d5c0b9b2bc1a64df86a03d8"
+          }
+        },
+        {
+          "client_id": "958768264282-um521dac0j0c1f0g06sr6qkjb4nc5nie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.letstalk.rathero.vspc_redtide.test1",
+            "certificate_hash": "a3a4f592bcf42aae1827bf8bdc7303d247b53ee7"
+          }
+        },
+        {
+          "client_id": "958768264282-tsvi5n0ud3m5qn8jnkjpvpmv0tcqmsno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.letstalk.rathero.vspc_redtide.test1",
+            "certificate_hash": "b83bb1c4ffa325250f5178c270b148531c42269d"
+          }
+        },
+        {
+          "client_id": "958768264282-88r3t75suv91jron1t3am8rn0th32751.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Tk45FNWV6sNBYdvLRjgkNdDgIOvhSVo"
+        },
+        {
+          "current_key": "AIzaSyAYpKpjqsnCnjBOA0RK0mRJXfs9RKMJsBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958768264282-88r3t75suv91jron1t3am8rn0th32751.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
